@@ -1,0 +1,143 @@
+body {
+	font-family: 'Helvetica Neue', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 1920px;
+}
+
+/* all things in top nav */
+
+#top-nav {
+	position: absolute;
+	z-index: 99;
+	padding: 10px 0;
+	width: 1920px;
+	background: rgba(25, 25, 25, .5);
+}
+
+.nav-area-container {
+	padding: 0 360px;
+}
+
+
+.logo {
+	width: 120px;
+}
+
+#top-nav .nav > li {
+	float: left;
+}
+
+#top-nav .nav > li > a {
+	color: #ffffff;
+	text-shadow: none;
+	padding: 10px 0 10px 30px;
+}
+
+#top-nav .nav > li > a:focus,
+#top-nav .nav > li > a:hover {
+  color: #dddddd;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* slider area */
+#slider-wrapper {
+	
+}
+
+/* app area */
+.app-area {
+	padding-top: 100px;
+	background: #f6f6f6;
+}
+
+.app-area-container {
+	padding: 0 360px;
+}
+
+.app-area-left {
+	
+}
+
+.app-area-right {
+	margin-top: 50px;
+}
+
+#app-area-title {
+	margin-left: 40px;
+	color: #0e0e0e;
+	font-size: 50px;
+}
+
+#app-area-info {
+	margin-top: 30px;
+	color: #6e6e6e;
+	font-size: 25px;
+	
+}
+
+#app-download-btn {
+	text-align: center;
+	margin-top: 160px;
+}
+
+/* screen area */
+
+.screen-area {
+	background: #fefefe;
+	padding-top: 128px;
+	padding-bottom: 50px;
+}
+
+.screen-area-container {
+	
+}
+
+.screen-area-left {
+	padding-top: 30px;
+}
+
+.screen-area-right {
+	
+}
+
+#screen-area-title {
+	margin-left: 170px;
+	color: #0e0e0e;
+	font-size: 50px;
+}
+
+#screen-area-info {
+	width: 580px;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #5e5e5e;
+	font-size: 25px;
+}
+
+#screen-area-btns{
+	margin-top: 200px;
+	margin-left: 70px;
+}
+
+.btn-signin {
+	width: 270px;
+}
+
+.btn-signup {
+	width: 270px;
+}
+
+
+/* footer */
+.footer {
+	padding-left: 360px;
+	padding-right: 360px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	text-align: center;
+	background: #f6f6f6;
+}
